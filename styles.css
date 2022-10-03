@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+
+}
+body {
+    background: linear-gradient(90deg, rgba(146,43,212,1) 0%, rgba(255, 221, 0, 0.425) 54%, rgb(255, 255, 255) 100%);
+    font-size: 100%;
+}
+.cabecalho {
+    display: flex;
+
+    align-items: center;
+    margin: 10px;
+    gap: 30px;
+
+}
+.navbar {
+    display: flex;
+        gap: 30px;
+}
+.navbar-font { 
+    font-family: 'Noto Sans Mono', monospace;
+    color:rgb(10, 0, 0)
+    font-border 03px;
+}
+.text {
+    font-size: 80px;
+    font-family: 'Luckiest Guy';
+    grid-area: text;
+    color: rgb(63, 41, 85);
+    text-shadow: 10px 10px 0 #E79C10, 10px 10px 0 #D53A33;
+}
+.conteudo {
+    border-top: 03px solid #780283b4
+    
+}
+.section-total {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.footer {
+    border-top: 3px solid #fffeffb4;
+    padding: 30px;
+    text-align: center;
+}
+.myButton {
+	box-shadow: 3px 3px 0px 0px #cf07f7;
+	background:linear-gradient(to bottom, #fffffe 5%, #4409e6 100%);
+	background-color:#a10d00;
+	border-radius:33px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 27px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5107da;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #dfd3d2 5%, #ffffff 100%);
+	background-color:#d71bf0;
+}
+.myButton:active {
+	position:relative;  
+	top:1px;
+}
+.text-image {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
